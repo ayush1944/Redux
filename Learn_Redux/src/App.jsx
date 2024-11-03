@@ -13,7 +13,7 @@ const App = () => {
       <div className="text-center flex gap-5 mt-5 items-center justify-center">
         <button className=" rounded border-2 border-red-800 px-2 bg-transparent py-1 font-semibold " onClick={()=>dispatch(increment())} >Increment</button>
         <button className=" rounded border-2 border-red-800 px-2 bg-transparent py-1 font-semibold " onClick={()=>dispatch(decrement())}>Decrement</button>
-        <button className=" rounded border-2 border-red-800 px-2 bg-transparent py-1 font-semibold " onClick={()=>dispatch(incrementAsync(5))}> Increment by 5</button>
+        <button className=" rounded border-2 border-red-800 px-2 bg-transparent py-1 font-semibold " onClick={()=>dispatch(incrementAsync(2))}> Increment by 2</button>
       </div>
     </div>
   )}
